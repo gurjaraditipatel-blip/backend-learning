@@ -1,0 +1,29 @@
+<%- include('partials/head') %>
+
+  </head>
+  <body>
+     <%- include('partials/nav') %>
+    <main
+      class="container mx-auto bg-white shadow-lg rounded-lg p-8 mt-10 max-w-xl"
+    >
+      <h2 class="text-5xl text-gray-800 font-bold text-center mb-6">
+        Here are our registered homes:
+      </h2>
+      <ul class="space-y-3">
+        <% registeredHomes.forEach(home => { %>
+        <li
+          class="flex items-center gap-3 p-4 bg-gray-50 border border-gray-200 rounded-lg hover:border-red-300 hover:bg-red-50 transition duration-300"
+        >
+          <span
+            class="flex-shrink-0 w-2 h-2 bg-red-500 rounded-full"
+            aria-hidden="true"
+          ></span>
+          <span class="text-lg text-gray-700 font-medium">
+            <%= home.houseName %>
+          </span>
+        </li>
+        <% }) %>
+      </ul>
+    </main>
+  </body>
+</html>
