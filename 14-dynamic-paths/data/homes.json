@@ -1,1 +1,34 @@
-[{"id":"1","houseName":"siyaram","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400"},{"id":"2","houseName":"Queenshome","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400"},{"id":"3","houseName":"skyfly","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400"},{"id":"4","houseName":"antilia","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400"},{"id":"5","houseName":"utsav","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400"},{"houseName":"Stars home","price":"1000","rating":"4","photoUrl":"https://picsum.photos/600/400","id":"0.31479200240709204"}]
+[
+  {
+    "id": "1",
+    "houseName": "Siyaram",
+    "price": "5000",
+    "location": "Khandwa",
+    "rating": "5",
+    "photoUrl": "/images/house1.png"
+  },
+  {
+    "id": "2",
+    "houseName": "Queenshome",
+    "price": "1000",
+    "location": "delhi",
+    "rating": "4",
+    "photoUrl": "/images/house2.png"
+  },
+  {
+    "id": "3",
+    "houseName": "skyfly",
+    "price": "1000",
+    "location": "delhi",
+    "rating": "4",
+    "photoUrl": "/images/house3.png"
+  },
+  {
+    "houseName": "Stars home",
+    "price": "1000",
+    "location": "delhi",
+    "rating": "4",
+    "photoUrl": "/images/house6.png",
+    "id": "0.31479200240709204"
+  }
+]
